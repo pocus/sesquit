@@ -1,15 +1,31 @@
-div {
-/*	border: 1px solid black;*/
+.highlight {
+	background-color: mistyrose;
 }
 
 .annotation {
 	color: darkorange;
-	font-size: 1.0rem;
+	font-size: 0.95rem;
+
 }
 
-h5 {
+.stanza
+{
+	text-align: center;
+}
+.ano-box {
+	display: none;
+	width: 190px;
+	position: absolute;
+	top:-5rem;
+	/*border: 1px solid black;*/
+}
+
+
+.song-title {
+	color:red;
+}
+
+.explanation {
 	font-style: italic;
-	color: gray;
+
 }
-
-
