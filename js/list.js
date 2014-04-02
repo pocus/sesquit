@@ -1,10 +1,8 @@
 $(document).ready(function(){
 
-	$( ".highlight" ).hover(
+	$( ".highlight" ).mouseover(
 		function() {
-			$( ".ano-box" ).fadeIn(400);
-		}, function() {
-			$( ".ano-box" ).fadeOut(400);
+			$( ".ano-box" ).fadeToggle(400);
 		}
 		);
 
